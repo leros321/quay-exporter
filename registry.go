@@ -15,7 +15,7 @@ import (
 )
 
 const (
-	quayHost   = "quay.io"
+	quayHost   = "mtr.external.otc.telekomcloud.com"
 	quayPath   = "/"
 	quayScheme = "https"
 

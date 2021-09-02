@@ -17,7 +17,7 @@ import (
 
 var quayVulnerabilities = prometheus.NewGaugeVec(prometheus.GaugeOpts{
 	Name: "quay_vulnerabilities",
-	Help: "Number of vulnerabilities reported by quay.io.",
+	Help: "Number of vulnerabilities reported by mtr.external.otc.telekomcloud.com.",
 }, []string{"organization", "repository", "os", "severity"})
 
 func init() {
@@ -172,7 +172,7 @@ func scanVulnerabilities(registry *Registry, namespace string) {
 		"namespace": namespace,
 	})
 
-	log.Info("polling quay.io for vulnerabilities")
+	log.Info("polling mtr.external.otc.telekomcloud.com for vulnerabilities")
 
 	repositories, err := registry.ListRepositories(namespace)
 	if err != nil {
@@ -236,8 +236,8 @@ func setLogLevel(logLevel string) error {
 }
 
 func main() {
-	quayToken := flag.String("quay-token", "", "quay.io OAuth 2 bearer token")
-	quayPollInterval := flag.Duration("quay-poll-interval", 30*time.Minute, "quay.io poll interval")
+	quayToken := flag.String("quay-token", "", "mtr.external.otc.telekomcloud.com OAuth 2 bearer token")
+	quayPollInterval := flag.Duration("quay-poll-interval", 30*time.Minute, "mtr.external.otc.telekomcloud.com poll interval")
 	logLevel := flag.String("log-level", "info", "verbosity of log output - one of 'debug', 'info' (default), 'warning', 'error', 'fatal'")
 	flag.Parse()
 

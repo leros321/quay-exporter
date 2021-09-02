@@ -1,4 +1,4 @@
-REGISTRY      = quay.io
+REGISTRY      = mtr.external.otc.telekomcloud.com
 NAMESPACE    = damien.lespiau
 VERSION      = $(shell git symbolic-ref --short HEAD)-$(shell git rev-parse --short HEAD)
 IMAGE_BASE   = $(REGISTRY)/$(NAMESPACE)/quay-exporter

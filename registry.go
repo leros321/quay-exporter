@@ -7,11 +7,11 @@ import (
 	httptransport "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/dlespiau/quay-exporter/pkg/models"
-	"github.com/dlespiau/quay-exporter/pkg/quay"
-	"github.com/dlespiau/quay-exporter/pkg/quay/repository"
-	"github.com/dlespiau/quay-exporter/pkg/quay/secscan"
-	"github.com/dlespiau/quay-exporter/pkg/quay/tag"
+	"github.com/leros321/quay-exporter/pkg/models"
+	"github.com/leros321/quay-exporter/pkg/quay"
+	"github.com/leros321/quay-exporter/pkg/quay/repository"
+	"github.com/leros321/quay-exporter/pkg/quay/secscan"
+	"github.com/leros321/quay-exporter/pkg/quay/tag"
 )
 
 const (

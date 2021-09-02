@@ -17,7 +17,7 @@ import (
 
 	strfmt "github.com/go-openapi/strfmt"
 
-	"github.com/dlespiau/quay-exporter/pkg/models"
+	"github.com/leros321/quay-exporter/pkg/models"
 )
 
 // NewRestoreTagParams creates a new RestoreTagParams object

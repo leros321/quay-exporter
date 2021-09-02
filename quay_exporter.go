@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dlespiau/quay-exporter/pkg/models"
+	"github.com/leros321/quay-exporter/pkg/models"
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"

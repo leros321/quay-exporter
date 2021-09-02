@@ -12,7 +12,7 @@ published in that service.
 To run the daemon locally, use:
 
 ```shell
-$ go get github.com/dlespiau/quay-exporter
+$ go get github.com/leros321/quay-exporter
 $ quay-exporter weaveworks
 ```
 

@@ -13,7 +13,7 @@ import (
 
 	strfmt "github.com/go-openapi/strfmt"
 
-	"github.com/dlespiau/quay-exporter/pkg/models"
+	"github.com/leros321/quay-exporter/pkg/models"
 )
 
 // ListRepoNotificationsReader is a Reader for the ListRepoNotifications structure.

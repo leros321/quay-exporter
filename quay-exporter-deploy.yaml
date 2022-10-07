@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: quay-exporter
-        image: mtr.external.otc.telekomcloud.com/damien.lespiau/quay-exporter
+        image: mtr.devops.telekom.de/damien.lespiau/quay-exporter
         args:
         # Try 'debug' when troubleshooting.
         - -log-level=info

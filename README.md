@@ -1,6 +1,6 @@
-# mtr.external.otc.telekomcloud.com exporter
+# mtr.devops.telekom.de exporter
 
-`quay-exporter` is a daemon exposing information about your mtr.external.otc.telekomcloud.com
+`quay-exporter` is a daemon exposing information about your mtr.devops.telekom.de
 repositories as Prometheus metrics. Those metrics can be then used to monitor
 the number and severity of vulnerabilities present in the docker images
 published in that service.
@@ -24,7 +24,7 @@ bearer token using the `-quay-token` command line parameter.
 Using `quay-expoter` from the published Docker image is one command away:
 
 ```shell
-docker run -p 8080:8080 mtr.external.otc.telekomcloud.com/damien.lespiau/quay-exporter weaveworks
+docker run -p 8080:8080 mtr.devops.telekom.de/damien.lespiau/quay-exporter weaveworks
 ```
 
 ### Deploying on Kubernetes

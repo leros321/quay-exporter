@@ -997,13 +997,13 @@
             "type": "object"
         }
     },
-    "host": "mtr.external.otc.telekomcloud.com",
+    "host": "mtr.devops.telekom.de",
     "info": {
         "contact": {
-            "email": "support@mtr.external.otc.telekomcloud.com"
+            "email": "support@mtr.devops.telekom.de"
         },
-        "description": "This API allows you to perform many of the operations required to work with Quay repositories, users, and organizations. You can find out more at <a href=\"https://mtr.external.otc.telekomcloud.com\">Quay</a>.",
-        "termsOfService": "https://mtr.external.otc.telekomcloud.com/tos",
+        "description": "This API allows you to perform many of the operations required to work with Quay repositories, users, and organizations. You can find out more at <a href=\"https://mtr.devops.telekom.de\">Quay</a>.",
+        "termsOfService": "https://mtr.devops.telekom.de/tos",
         "title": "Quay Frontend",
         "version": "v1"
     },
@@ -8704,7 +8704,7 @@
     ],
     "securityDefinitions": {
         "oauth2_implicit": {
-            "authorizationUrl": "https://mtr.external.otc.telekomcloud.com/oauth/authorize",
+            "authorizationUrl": "https://mtr.devops.telekom.de/oauth/authorize",
             "flow": "implicit",
             "scopes": {
                 "org:admin": "This application will be able to administer your organizations including creating robots, creating teams, adjusting team membership, and changing billing settings. You should have absolute trust in the requesting application before granting this permission.",
